@@ -1,0 +1,23 @@
+How to setup/install your Viewport framework:
+
+1. Use the image templates to create slides of your work. The templates are sized 768px x 1026px at 132 dpi. Viewport can be set up in either portrait OR landscape orientations and can handle any common web image format, including .png, .jpg, or .gif. 
+
+2. Open the index.html file provided in the editor of your choice and add your slide locations into the appropriate <img> tags. (We've commented the markup to help, "add your slide location here")
+
+3. Adjust the "#pageflip" and ".scroller" dimensions within the "Customized CSS" section of the index.html file to compensate the width and height of your pages and slides. Save your index.html file.
+
+* This step applies to the offline cache feature. *
+4. Open the viewport.manifest file and add the location of your slides where it says "# Edit these paths to YOUR slide locations". Save your viewport.manifest file.  
+
+5. Upload the index.html, your slides, and viewport.manifest to your hosted web space within the same directory.  
+
+6. Open your iPad's browser, point it to the address of your viewport framework index.html file, and follow the on-screen instructions to install it on your iPad.
+* There is a video of this step located 
+at http://vimeo.com/gruntmonkey/viewportinstallation *
+
+*Due to some web hosting setups you may have to use the included .htaccess file to allow for offline viewing. If necessary, upload the "add_to_root.htaccess" file to your web space root directory, and rename it ".htaccess".  This creates a file that may become hidden due to your settings. What this file does is allow your server to accept the manifest file type and use it for offline cache. 
+
+We hope you enjoy Viewport. We've tried to make the setup as simple as possible. However, if you have any questions or issues you can post them at http://getsatisfaction.com/gruntmonkey_llc. 
+
+Like Viewport? Help us out and spread the word. 
+http://viewport.gruntmonkey.com/

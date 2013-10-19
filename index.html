@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html manifest="viewport.manifest" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<meta charset="utf-8" />
+<meta name="description" content="Viewport is a web based portfolio framework for iPad created by Jason Early and released through gruntmonkey LLC." />
+<meta name="robots" content="all" />
+<meta name="copyright" content="Our code is ours, your code is yours" />
+<meta name="keywords" content="Viewport, gruntmonkey, portfolio, design" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+<link type="text/plain" rel="author" href="http://viewport.gruntmonkey.com/humans.txt" />
+<link rel="apple-touch-startup-image" href="http://viewport.gruntmonkey.com/active/images/startup.png">
+<link rel="apple-touch-icon-precomposed" href="http://viewport.gruntmonkey.com/active/images/ios_custom_icon.png">
+<link rel="stylesheet" media="all and (orientation:portrait)" href="http://viewport.gruntmonkey.com/active/css/portrait.css">
+<link rel="stylesheet" media="all and (orientation:landscape)" href="http://viewport.gruntmonkey.com/active/css/landscape.css">
+
+<script type="text/javascript" src="http://viewport.gruntmonkey.com/active/js/cache_refresh.js"></script>
+<script type="text/javascript" src="http://viewport.gruntmonkey.com/active/js/orientation.js"></script>
+<script type="text/javascript" src="http://viewport.gruntmonkey.com/active/js/2wiscroll.js"></script> 
+<script type="text/javascript" src="http://viewport.gruntmonkey.com/active/js/call2ws.js"></script> 
+<script type="text/javascript" src="http://viewport.gruntmonkey.com/active/js/addtohome.js"></script>
+<script type="application/javascript" src="http://viewport.gruntmonkey.com/active/js/add2home.js"></script>
+
+<!-- Don't touch the code above this line -->
+
+
+<!--Customized CSS can go here-->
+<style type="text/css"> 
+#pageflip { width:2304px; /* determines the width of the horizontal container */ }
+.scroller {	height:8200px; /* determines the highth of the vertical container */ }
+.scrollerwrapper { background:; /* determines the background color/image of the framework container */ }
+.scroller li {  background:;  /* determines the background color/image of the slide container */  }
+img {  /* determines any style to be applied to your images */ }
+</style>
+
+
+<title>Viewport</title>
+</head>
+
+<body onorientationchange="updateOrientation();"> 
+	<div id="pagewrapper">
+  		<div id="pageflip">
+   			<div class="scrollerwrapper"> <!--DETERMINES NEW PAGE IN HORIZONTAL SCROLL-->
+      			<div class="scroller">	<!-- DETERMINES VERTICAL SCROLL LIST--> 
+    			<ul>
+    				<li><h5><img src="http://viewport.gruntmonkey.com/active/images/viewport.png" alt="Viewport" style="-webkit-transform: scale(1);"><br/>
+					a web based portfolio framework.<br/>
+					
+					</h5>
+					</li>
+         		</ul>
+				</div>
+   			 </div>
+            
+             <div class="scrollerwrapper"> <!--DETERMINES NEW PAGE IN HORIZONTAL SCROLL-->
+				<div class="scroller">			<!-- DETERMINES VERTICAL SCROLL LIST--> 
+				<ul>
+              		<li><img src="add your slide location here." /> </li><!--DETERMINES ITEMS WITHIN VERTICAL SCROLL. NEW SLIDE, NEW <li></li>--> 
+              		            		
+            	</ul>
+       			</div>
+       		</div>
+       		
+       		
+       		 <div class="scrollerwrapper"> <!--DETERMINES NEW PAGE IN HORIZONTAL SCROLL-->
+				<div class="scroller">			<!-- DETERMINES VERTICAL SCROLL LIST--> 
+				<ul>
+              		<li><img src="add your slide location here." /> </li><!--DETERMINES ITEMS WITHIN VERTICAL SCROLL. NEW SLIDE, NEW <li></li>--> 
+                           
+            	</ul>
+       			</div>
+       		</div>
+
+       		
+       		
+       		
+       		
+		</div>
+	</div>
+</body>
+</html>

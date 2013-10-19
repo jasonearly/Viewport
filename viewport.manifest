@@ -1,0 +1,28 @@
+CACHE MANIFEST
+
+# Offline viewing
+# html files
+index.html
+
+# css files
+http://viewport.gruntmonkey.com/active/css/portrait.css
+http://viewport.gruntmonkey.com/active/css/landscape.css
+
+# js files
+http://viewport.gruntmonkey.com/active/js/cache_refresh.js
+http://viewport.gruntmonkey.com/active/js/orientation.js
+http://viewport.gruntmonkey.com/active/js/2wiscroll.js
+http://viewport.gruntmonkey.com/active/js/call2ws.js
+http://viewport.gruntmonkey.com/active/js/addtohome.js
+http://viewport.gruntmonkey.com/active/js/add2home.js
+
+# images
+http://viewport.gruntmonkey.com/active/images/viewport.png
+
+# Don't touch the code above this line. The above file locations are 
+# required to enable the offline viewing.  
+
+
+# Edit these paths to YOUR slide locations
+images/your_category/filename.jpg
+images/your_category/filename.jpg
